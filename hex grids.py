@@ -12,17 +12,18 @@ Hexagons created are in meters, most suitable for small, city-scale areas.
 If the desired extent of the hexagons crosses multiple UTM zones (e.g. large 
 country scale), the hexagon sizes may suffer from projection issues.
 
+"""
 #user input here
 
 #take in top & bottom lat long coordinates representing the extent of hexagons to create
 #no need to worry about left or right, checker below will sort out
-coord1 = (-27.365941, 153.140228)
-coord2 = (-27.541362, 152.955269)
+coord1 = (1.278319, 103.847400)
+coord2 = (1.293533, 103.861012)
 
 #input sizes in meters as needed
 sizes = [20, 50, 100, 200]
 
-output_filename = 'Brisbane'
+output_filename = 'Singapore'
 
 #import libraries
 import utm
